@@ -1,0 +1,29 @@
+{
+  "name": "kbadmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm server\" \"npm client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song-jang-seop/project-p01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/song-jang-seop/project-p01/issues"
+  },
+  "homepage": "https://github.com/song-jang-seop/project-p01#readme"
+}
