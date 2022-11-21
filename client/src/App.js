@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Customer from './components/Customer'
+import CustomerAdd from './components/CustomerAdd';
 import './App.css';
 import { Table } from '@mui/material';
 import { TableHead } from '@mui/material';
@@ -72,6 +73,7 @@ class App extends Component {
                         }
                     </TableBody>      
                 </Table>
+                <CustomerAdd/>
             </div>
         );
     }
